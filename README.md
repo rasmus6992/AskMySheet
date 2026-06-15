@@ -1,5 +1,7 @@
 # AskMySheet
 
+DEMO: https://rasmus6992.com/randomaistuff/cvtohtmlv1/
+
 A secure, framework-free PHP 8 application that accepts an Excel/CSV upload and lets the same browser session ask questions grounded only in the parsed workbook data.
 
 ## Included
