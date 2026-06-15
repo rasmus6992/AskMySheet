@@ -1,0 +1,18 @@
+[15-Jun-2026 08:04:56 UTC] PHP Fatal error:  Uncaught RuntimeException: Missing required environment variable: DB_HOST in /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Env.php:55
+Stack trace:
+#0 /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Database.php(19): TalkToExcel\Env::require()
+#1 /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/public/status.php(18): TalkToExcel\Database::connection()
+#2 {main}
+  thrown in /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Env.php on line 55
+[15-Jun-2026 08:05:49 UTC] PHP Fatal error:  Uncaught RuntimeException: Missing required environment variable: DB_HOST in /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Env.php:55
+Stack trace:
+#0 /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Database.php(19): TalkToExcel\Env::require()
+#1 /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/public/upload.php(26): TalkToExcel\Database::connection()
+#2 {main}
+  thrown in /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Env.php on line 55
+[15-Jun-2026 08:06:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Missing required environment variable: DB_HOST in /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Env.php:55
+Stack trace:
+#0 /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Database.php(19): TalkToExcel\Env::require()
+#1 /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/public/upload.php(26): TalkToExcel\Database::connection()
+#2 {main}
+  thrown in /home/d3za2w398903/public_html/rasmus6992.com/randomaistuff/talktoexcel/src/Env.php on line 55

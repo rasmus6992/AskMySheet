@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@source "../index.php";
+@source "../upload.php";
+@source "../ask.php";
+@source "../status.php";
+@source "./app.js";
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(148 163 184 / 0.45) transparent;
+}
+
+::selection {
+    background: rgb(16 185 129 / 0.22);
+}

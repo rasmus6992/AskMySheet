@@ -1,0 +1,12 @@
+{
+  "name": "talk-to-your-excel-ui",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./public/assets/input.css -o ./public/assets/app.css --minify",
+    "watch": "tailwindcss -i ./public/assets/input.css -o ./public/assets/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  }
+}
